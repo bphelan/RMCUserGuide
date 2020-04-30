@@ -11,8 +11,6 @@ This document contains some quick notes on RMC v4, focused mainly on C++ for Unr
 
 **Step #1:** Clone or download the RMC project source into `YourProject/Plugins` (the RMC plugin source should be under `YourProject/Plugins/RuntimeMeshComponent/Source` after you've done this).
 
-NB: The official RMC repository does not currently compile for UE4.24 with VS17/19.  [Until the fix is merged, use this fork instead.](https://github.com/bphelan/RuntimeMeshComponent)
-
 **Step #2:** Modify `YourProject/Source/YourProject/YourProject.Build.cs`, adding the following line:
 
 ```c#
